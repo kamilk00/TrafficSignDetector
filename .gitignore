@@ -1,0 +1,16 @@
+faster_rcnn/results
+faster_rcnn/test
+faster_rcnn/train
+faster_rcnn/valid
+faster_rcnn/Video1.mp4
+faster_rcnn/ckptTest100.pth
+faster_rcnn/trainTest100.pth
+faster_rcnn/trainTest100.pkl
+faster_rcnn/varsTest100.pickle
+faster_rcnn/confusion_matrix.png
+yolo_v5/yolov5
+yolo_v8/gtsdb_all_608_more_img
+yolo_v8/runs
+yolo_v8/Video1.mp4
+yolo_v8/yolov8n.pt
+yolo_v8/yolov8s.pt
