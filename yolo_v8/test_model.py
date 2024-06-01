@@ -17,6 +17,7 @@ while True:
     ret, frame = cap.read()
     counter = counter + 1
 
+    counter = counter + 1
     if not ret:
         print(f'Average FPS: {(int) (counter / round(time.time() - timer, 4))}')
         break
