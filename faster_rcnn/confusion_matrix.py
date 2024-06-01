@@ -205,14 +205,14 @@ def bulid_matrix(model_p, image_data, csv_name, lbmap):
     ax.grid(True, color = 'gray', linestyle = '--', linewidth = 0.5)
 
     #save confusion matrix as png file
-    fig.savefig('confusion_matrixTest.png', dpi = 250)
+    fig.savefig('confusion_matrixTest_batches_4.png', dpi = 250)
     plt.close(fig)
     
 
 if __name__ =='__main__':
 
-    model = "train1000.pkl"
-    lm = "./labelmap.txt"
+    model = "trainTest_batches_4.pkl"
+    lm = "./labelmap2.txt"
     csv = "./valid/gt_valid_with_classes.csv"
     f = "./valid/images"
 
